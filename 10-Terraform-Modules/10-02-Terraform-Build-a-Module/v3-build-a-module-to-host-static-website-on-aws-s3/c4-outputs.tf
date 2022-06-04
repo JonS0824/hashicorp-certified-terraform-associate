@@ -14,12 +14,12 @@ output "website_bucket_name" {
 
 ## S3 Bucket Domain
 output "website_bucket_domain" {
-  description = "Name (id) of the bucket"
+  description = "Domain Name of the bucket"
   value = module.website_s3_bucket.domain
 }
 
 ## S3 Bucket Endpoint
 output "website_bucket_endpoint" {
-  description = "Name (id) of the bucket"
+  description = "Endpoint Information of the bucket"
   value = module.website_s3_bucket.endpoint
 }
